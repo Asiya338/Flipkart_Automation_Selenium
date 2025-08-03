@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Flipkart-Automation" parallel="false">
+    <test name="Flipkart-Automation-test">
+        <classes>
+            <class name="testcases.MainTest" />
+            <class name="testcases.CartTest" /> 
+            <class name="testcases.SearchTest" />
+        </classes>
+    </test>
+</suite>

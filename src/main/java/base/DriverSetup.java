@@ -52,8 +52,8 @@ public class DriverSetup
 		}
 	}
 	
-	public void getTitle()
+	public String getTitle()
 	{
-		System.out.println("The title is  : " + driver.getTitle());
+		return driver.getTitle();
 	}
 }

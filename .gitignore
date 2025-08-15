@@ -1,0 +1,10 @@
+target/
+*.log
+*.class
+*.iml
+.idea/
+*.png
+*.jpg
+.DS_Store
+.settings/
+.project

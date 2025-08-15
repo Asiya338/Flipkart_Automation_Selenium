@@ -3,6 +3,7 @@ package testcases;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
+import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 import pages.CartPage;
 import base.DriverSetup;
@@ -38,7 +39,8 @@ public class CartTest
 	public void getTitlePage()
 	{
 		System.out.println("=========================< The Cart Page >=======================");
-		setup.getTitle();
+		String title = setup.getTitle();
+		Assert.assertEquals(title, "The cart page");
 	}
 	
 	@AfterClass
